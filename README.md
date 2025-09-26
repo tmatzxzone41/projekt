@@ -1,5 +1,2 @@
 # projekt
-sheesh
-ttttt
-update? Pog
-zzz
+Backup tampermonkey script
