@@ -3,7 +3,7 @@
 // @namespace   http://tampermonkey.net/
 // @match       https://pixeldrain.com/l/*
 // @grant       none
-// @version     1.0
+// @version     2.0
 // @author      TmatzXzonEv
 // ==/UserScript==
 (function() {
@@ -29,7 +29,7 @@
     function handleButtonClick() {
         // Extract file IDs and construct single URLs
         const fileData = window.viewer_data.api_response.files;
-        const baseDownloadUrl = 'https://pd.cybar.xyz/';
+        const baseDownloadUrl = 'https://pd.1drv.eu.org/';
         const singleUrls = fileData.map(file => `${baseDownloadUrl}${file.id}`).join('\n');
 
         // Copy URLs to clipboard
