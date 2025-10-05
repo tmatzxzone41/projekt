@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://pixeldrain.com/u/*
 // @grant       none
-// @version     1.1
+// @version     2.0
 // @author      TmatzXzonE
 // @description 1/30/2024, 11:47:15 AM
 // ==/UserScript==
@@ -20,7 +20,7 @@
 
     newButton.addEventListener('click', function() {
         // Open a new tab with the custom URL
-        window.open('https://pd.cybar.xyz/' + fileCode, '_blank');
+        window.open('https://pd.1drv.eu.org/' + fileCode, '_blank');
     });
 
     // Find the existing download button container
